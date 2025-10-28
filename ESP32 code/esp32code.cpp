@@ -1,3 +1,45 @@
+/**
+ * @file esp32code.cpp
+ * @brief ESP32 RFID Hotel Management System - Hardware Integration
+ * @author Development Team
+ * @version 1.0.0
+ * @date December 2024
+ * 
+ * @section hardware_overview Hardware Overview
+ * 
+ * This ESP32 firmware provides RFID card reading capabilities for the hotel
+ * management system. It connects to WiFi, reads RFID cards via MFRC522,
+ * and communicates with the backend server through WebSocket/MQTT protocols.
+ * 
+ * @section hardware_features Key Features
+ * - MFRC522 RFID reader integration with 13.56MHz cards
+ * - WiFi connectivity with automatic reconnection
+ * - WebSocket communication for real-time updates
+ * - MQTT protocol support for IoT messaging
+ * - NTP time synchronization for accurate logging
+ * - Multi-user authentication with role-based access
+ * - LED and buzzer feedback for user interactions
+ * 
+ * @section hardware_wiring Wiring Configuration
+ * ESP32 Pin | MFRC522 Pin | Function
+ * --------- | ----------- | --------
+ * 3.3V      | 3.3V        | Power Supply
+ * GND       | GND         | Ground
+ * GPIO21    | SDA         | Serial Data
+ * GPIO18    | SCK         | Serial Clock
+ * GPIO23    | MOSI        | Master Out Slave In
+ * GPIO19    | MISO        | Master In Slave Out
+ * GPIO22    | RST         | Reset Pin
+ * 
+ * @section hardware_parameters Configuration Parameters
+ * All configuration parameters are defined in config.h:
+ * - WiFi credentials (WIFI_SSID, WIFI_PASSWORD)
+ * - Server endpoints (WEBSOCKET_HOST, WEBSOCKET_PORT)
+ * - RFID pin assignments (RFID_RST_PIN, RFID_SS_PIN)
+ * - Room identification (ROOM_NUMBER, BUILDING_ID, FLOOR_NUMBER)
+ * - NTP server settings for time synchronization
+ */
+
 #include <SPI.h>
 #include <MFRC522.h>
 #include <WiFi.h>

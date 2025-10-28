@@ -1,3 +1,52 @@
+/**
+ * @file index.js
+ * @brief RFID Hotel Management System - Backend Server
+ * @author Development Team
+ * @version 1.0.0
+ * @date December 2024
+ * 
+ * @section backend_overview Backend Server Overview
+ * 
+ * This Node.js/Express server provides the complete backend infrastructure
+ * for the RFID Hotel Management System. It handles authentication, hotel
+ * management, real-time communication, and hardware integration.
+ * 
+ * @section backend_features Key Features
+ * - RESTful API with 20+ endpoints for complete hotel management
+ * - JWT-based authentication with role-based access control
+ * - Real-time WebSocket communication for live updates
+ * - MQTT broker integration for IoT device communication
+ * - MongoDB database with optimized schemas and indexing
+ * - CORS configuration for cross-origin requests
+ * - Comprehensive error handling and logging
+ * - Health monitoring and status endpoints
+ * 
+ * @section backend_architecture Server Architecture
+ * - Express.js web framework with middleware stack
+ * - MongoDB with Mongoose ODM for data persistence
+ * - WebSocket server for real-time client communication
+ * - MQTT broker (Aedes) for hardware device messaging
+ * - JWT authentication with secure token management
+ * - CORS policy for frontend-backend communication
+ * 
+ * @section backend_parameters Configuration Parameters
+ * Environment variables required for deployment:
+ * - PORT: Server port (default: 3000, Render uses dynamic PORT)
+ * - MONGODB_URI: MongoDB Atlas connection string
+ * - JWT_SECRET: Secret key for JWT token signing
+ * - CORS_ORIGIN: Allowed origins for CORS policy
+ * - MQTT_PORT: MQTT broker port (default: 1883)
+ * - NODE_ENV: Environment mode (development/production)
+ * 
+ * @section backend_endpoints API Endpoints
+ * - Authentication: /api/auth/* (login, register, verify)
+ * - Hotels: /api/hotels/* (CRUD operations, analytics)
+ * - Rooms: /api/rooms/* (management, status, booking)
+ * - Users: /api/users/* (profile, permissions, roles)
+ * - Analytics: /api/analytics/* (metrics, reports, insights)
+ * - Hardware: /api/hardware/* (RFID integration, device status)
+ */
+
 const express = require('express');
 const http = require('http');
 const aedes = require('aedes')();
