@@ -3,7 +3,7 @@
  * @brief ESP32 RFID Hotel Management System - Hardware Integration
  * @author Development Team
  * @version 1.0.0
- * @date December 2024
+ * @date October 2025
  * 
  * @section hardware_overview Hardware Overview
  * 

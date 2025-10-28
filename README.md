@@ -30,13 +30,13 @@
 
 # 🏨 RFID Hotel Management System
 
-[![Deploy Status](https://img.shields.io/badge/Deploy-Production%20Ready-brightgreen)](https://coastal-grand-tolr.vercel.app)
-[![Backend](https://img.shields.io/badge/Backend-Online-success)](https://coastal-grand-back.onrender.com)
+[![Deploy Status](https://img.shields.io/badge/Deploy-Production%20Ready-brightgreen)](https://hotel-management-demo.vercel.app)
+[![Backend](https://img.shields.io/badge/Backend-Online-success)](https://hotel-management-api.onrender.com)
 [![Database](https://img.shields.io/badge/Database-MongoDB%20Atlas-green)](https://cloud.mongodb.com)
 [![Hardware](https://img.shields.io/badge/Hardware-ESP32%20Ready-blue)](#esp32-setup)
 
-> **🚀 Live Demo**: [https://coastal-grand-tolr.vercel.app](https://coastal-grand-tolr.vercel.app)  
-> **📡 Backend API**: [https://coastal-grand-back.onrender.com](https://coastal-grand-back.onrender.com)
+> **🚀 Live Demo**: [https://hotel-management-demo.vercel.app](https://hotel-management-demo.vercel.app)  
+> **📡 Backend API**: [https://hotel-management-api.onrender.com](https://hotel-management-api.onrender.com)
 
 ## 📋 Table of Contents
 

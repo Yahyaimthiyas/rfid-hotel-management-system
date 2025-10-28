@@ -37,7 +37,7 @@
  * @param WEBSOCKET_PORT HTTPS port (443 for SSL)
  * @param WEBSOCKET_PATH MQTT WebSocket endpoint
  */
-#define WEBSOCKET_HOST "coastal-grand-back.onrender.com"
+#define WEBSOCKET_HOST "hotel-management-api.onrender.com"
 #define WEBSOCKET_PORT 443
 #define WEBSOCKET_PATH "/mqtt"
 #define WEBSOCKET_PROTOCOL "wss"
@@ -55,19 +55,19 @@
  * @param FLOOR_NUMBER Floor/Hotel ID - Maps to backend hotelId (1-8)
  * 
  * Hotel ID Mapping:
- * 1 = Coastal Grand Hotel - Ooty
- * 2 = Coastal Grand Hotel - Salem  
- * 3 = Coastal Grand Hotel - Yercaud
- * 4 = Coastal Grand Hotel - Puducherry
- * 5 = Coastal Grand Hotel - Namakkal
- * 6 = Coastal Grand Hotel - Chennai
- * 7 = Coastal Grand Hotel - Bangalore
- * 8 = Coastal Grand Hotel - Kotagiri
+ * 1 = Grand Hotel - Ooty
+ * 2 = Royal Hotel - Salem  
+ * 3 = Mountain View Hotel - Yercaud
+ * 4 = Beach Resort - Puducherry
+ * 5 = City Hotel - Namakkal
+ * 6 = Metro Hotel - Chennai
+ * 7 = Garden Hotel - Bangalore
+ * 8 = Hill Station Resort - Kotagiri
  */
 #define ROOM_NUMBER "202"           ///< Change this for each room
 #define BUILDING_ID "main"          ///< Building identifier
 #define FLOOR_NUMBER "3"            ///< Hotel ID (1-8) - Currently Yercaud
-#define HOTEL_NAME "Coastal Grand Hotel - Yercaud"
+#define HOTEL_NAME "Mountain View Hotel - Yercaud"
 
 // ============================================================================
 // HARDWARE PIN CONFIGURATION
