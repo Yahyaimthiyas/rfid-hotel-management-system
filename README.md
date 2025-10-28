@@ -3,7 +3,7 @@
  * @brief RFID Hotel Management System - Complete Documentation
  * @author Development Team
  * @version 1.0.0
- * @date December 2024
+ * @date October 2025
  * 
  * @mainpage RFID Hotel Management System
  * 
