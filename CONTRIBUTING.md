@@ -3,7 +3,7 @@
  * @brief Contributing Guidelines for RFID Hotel Management System
  * @author Freelancing Development Team
  * @version 1.0.0
- * @date December 2024
+ * @date October 2025
  * 
  * @section overview Contributing Overview
  * 
