@@ -273,8 +273,8 @@ This project demonstrates:
 ## 📞 **Contact Information**
 
 ### **For Project Inquiries**
-- **Primary Contact**: Yahya Imthiyas (`yahyaimthiyass.23cse@kongu.edu`)
-- **Technical Lead**: Vijay Priyan (`vijaypriyans.23cse@kongu.edu`)
+- **Primary Contact**: Yahya Imthiyas S (`yahyaimthiyass.23cse@kongu.edu`)
+- **Technical Lead**: Vijaypriyan S (`vijaypriyans.23cse@kongu.edu`)
 - **Hardware Specialist**: Shabharish P (`shabharishp.23cse@kongu.edu`)
 
 ### **Collaboration Opportunities**
