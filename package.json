@@ -1,0 +1,75 @@
+{
+  "name": "rfid-hotel-management-system",
+  "version": "1.0.0",
+  "description": "Complete RFID Hotel Management System with ESP32 integration, real-time monitoring, and advanced analytics",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd Frontend && npm run dev || npm run dev",
+    "dev:backend": "cd Backend && npm start",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd Frontend && npm run build || npm run build",
+    "start": "npm run start:frontend",
+    "start:frontend": "cd Frontend && npm start || npm start",
+    "install:all": "npm install && (cd Frontend && npm install || npm install) && cd Backend && npm install",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd Frontend && npm test || npm test",
+    "test:backend": "cd Backend && npm test",
+    "lint": "npm run lint:frontend && npm run lint:backend",
+    "lint:frontend": "cd Frontend && npm run lint || npm run lint",
+    "lint:backend": "cd Backend && npm run lint",
+    "validate-env": "node scripts/validate-env.js",
+    "setup": "chmod +x scripts/setup.sh && ./scripts/setup.sh",
+    "deploy": "chmod +x scripts/deploy.sh && ./scripts/deploy.sh",
+    "clean": "rm -rf node_modules Frontend/node_modules Backend/node_modules .next Frontend/.next Backend/.next",
+    "reset": "npm run clean && npm run install:all",
+    "health-check": "curl -s https://coastal-grand-back.onrender.com/health && curl -s https://coastal-grand-tolr.vercel.app",
+    "logs:frontend": "vercel logs --app=coastal-grand-tolr",
+    "logs:backend": "echo 'Check Render dashboard for backend logs'",
+    "generate-keys": "node -e \"console.log('JWT_SECRET=' + require('crypto').randomBytes(32).toString('base64')); console.log('SESSION_SECRET=' + require('crypto').randomBytes(32).toString('base64')); console.log('ENCRYPTION_KEY=' + require('crypto').randomBytes(16).toString('hex'));\""
+  },
+  "keywords": [
+    "rfid",
+    "hotel-management",
+    "esp32",
+    "iot",
+    "nextjs",
+    "nodejs",
+    "mongodb",
+    "real-time",
+    "analytics",
+    "dashboard",
+    "typescript",
+    "react",
+    "express",
+    "mqtt",
+    "websocket"
+  ],
+  "author": "Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coastal-grand/rfid-hotel-management-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coastal-grand/rfid-hotel-management-system/issues"
+  },
+  "homepage": "https://coastal-grand-tolr.vercel.app",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {},
+  "config": {
+    "frontend_url": "https://coastal-grand-tolr.vercel.app",
+    "backend_url": "https://coastal-grand-back.onrender.com",
+    "demo_accounts": {
+      "admin": "admin@hotel.com / admin123",
+      "staff": "staff@hotel.com / staff123", 
+      "guest": "guest@hotel.com / guest123"
+    }
+  }
+}
