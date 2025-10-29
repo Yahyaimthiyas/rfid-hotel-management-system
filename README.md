@@ -624,34 +624,6 @@ campus/room/{building}/{floor}/{roomNum}/denied_access
 
 ---
 
-## 🤝 Contributing
-
-### **Development Workflow**
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
-### **Code Standards**
-- **TypeScript**: Strict mode enabled
-- **ESLint**: Airbnb configuration
-- **Prettier**: Code formatting
-- **Husky**: Pre-commit hooks
-
-### **Commit Convention**
-```
-feat: add new feature
-fix: bug fix
-docs: documentation update
-style: formatting changes
-refactor: code refactoring
-test: add tests
-chore: maintenance tasks
-```
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
@@ -665,21 +637,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 📞 Support
-
-### **Getting Help**
-- **📖 Documentation**: This README and deployment guide
-- **🐛 Issues**: [GitHub Issues](https://github.com/your-username/rfid-hotel-management/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/your-username/rfid-hotel-management/discussions)
-- **📧 Email**: support@yourcompany.com
-
-### **Resources**
-- **🎥 Video Tutorials**: Coming soon
-- **📚 Wiki**: [Project Wiki](https://github.com/your-username/rfid-hotel-management/wiki)
-- **🔧 Troubleshooting**: [Common Issues](TROUBLESHOOTING.md)
-- **🚀 Deployment Guide**: [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
-
----
 
 ## 🏆 Acknowledgments
 
@@ -693,7 +650,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ by the Development Team**
 
-**Last Updated**: December 2024  
+**Last Updated**: October 2025 
 **Version**: 1.0.0  
 **Status**: Production Ready ✅
 
